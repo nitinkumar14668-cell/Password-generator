@@ -3,7 +3,23 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>ᕈαssɯord Generαtor</title>
+
+<!-- ✅ SEO Title -->
+<title>Strong Password Generator (Free) - Create Secure Passwords Online</title>
+
+<!-- ✅ SEO Meta -->
+<meta name="description" content="Free Strong Password Generator tool to create secure passwords instantly. Generate strong passwords with name, DOB, symbols & numbers. Fast, safe and mobile friendly.">
+<meta name="keywords" content="strong password generator, secure password generator, password generator, strong password generator online, strong password generator free, random password generator, password generator with symbols, password generator with name and dob">
+<meta name="robots" content="index, follow">
+
+<!-- ✅ Canonical (change this URL to your exact website URL) -->
+<link rel="canonical" href="https://passwordgenerator-ruby-zeta.vercel.app/">
+
+<!-- ✅ Open Graph (Sharing SEO) -->
+<meta property="og:title" content="Strong Password Generator (Free) - Create Secure Passwords Online">
+<meta property="og:description" content="Generate strong and secure passwords instantly. Use name, DOB, symbols and numbers. Fast & mobile friendly tool.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://passwordgenerator-ruby-zeta.vercel.app/">
 
 <!-- Google Analytics 4 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-R7QDSV914X"></script>
@@ -48,6 +64,14 @@ button{border:none;border-radius:5px;cursor:pointer;}
 .weak{background:#e74c3c;}
 .medium{background:#f39c12;}
 .strong{background:#2ecc71;}
+
+/* ✅ SEO content styling */
+.seo-content{margin-top:30px;line-height:1.6;}
+.seo-content h2{margin-top:22px;font-size:20px;}
+.seo-content h3{margin-top:15px;font-size:16px;}
+.seo-content p{margin:8px 0;}
+.seo-content ul{padding-left:18px;}
+.seo-badge{display:inline-block;padding:4px 10px;border-radius:999px;background:rgba(26,188,156,.15);border:1px solid rgba(26,188,156,.35);margin-bottom:10px;font-size:13px;}
 </style>
 </head>
 
@@ -67,8 +91,13 @@ button{border:none;border-radius:5px;cursor:pointer;}
 <div class="overlay" id="overlay"></div>
 
 <div class="container">
-<h2>ᕈαssɯord Generαtor</h2>
 
+<!-- ✅ H1 (SEO most important) -->
+<span class="seo-badge">Free Tool</span>
+<h1>Strong Password Generator</h1>
+<p>Create secure passwords instantly with symbols, numbers and custom details. Fast, safe and mobile friendly.</p>
+
+<!-- Tool -->
 <input id="name" placeholder="Name">
 <input id="surname" placeholder="Surname">
 <input id="pet" placeholder="Pet Name">
@@ -85,6 +114,55 @@ button{border:none;border-radius:5px;cursor:pointer;}
 <button onclick="exportTxt()">Export (.txt)</button>
 
 <div id="output"></div>
+
+<!-- ✅ SEO Content + FAQ -->
+<div class="seo-content">
+  <h2>What is a Strong Password Generator?</h2>
+  <p>A <b>Strong Password Generator</b> is a free tool that helps you create secure passwords that are difficult to guess. A strong password usually includes uppercase letters, lowercase letters, numbers, and special symbols. This makes it harder for hackers or automated bots to crack your password using brute force attacks.</p>
+
+  <h2>Why Strong Passwords Matter</h2>
+  <p>Most accounts get hacked because people use weak passwords like <b>123456</b>, <b>password</b>, or their name and birth year. Strong passwords protect your social media accounts, email, gaming IDs, and even banking apps. Using a secure password is one of the best ways to stay safe online.</p>
+
+  <h2>How This Password Generator Works</h2>
+  <p>This tool creates passwords using smart combinations of your input like name, DOB/year, and symbols. It also checks password strength and filters out weak passwords. You can generate multiple passwords at once and export them in a TXT file.</p>
+
+  <h2>Best Features</h2>
+  <ul>
+    <li>Generate strong passwords instantly</li>
+    <li>Use symbols, numbers and custom details</li>
+    <li>Strength checker: Weak / Medium / Strong</li>
+    <li>Copy password in one click</li>
+    <li>Export passwords to TXT</li>
+    <li>Mobile friendly and fast</li>
+  </ul>
+
+  <h2>Tips to Create a Secure Password</h2>
+  <ul>
+    <li>Use at least 8–12 characters</li>
+    <li>Mix uppercase, lowercase, numbers and symbols</li>
+    <li>Do not reuse the same password on multiple sites</li>
+    <li>Use different passwords for email and social media</li>
+    <li>Store passwords safely (use password manager if possible)</li>
+  </ul>
+
+  <h2>FAQ - Strong Password Generator</h2>
+
+  <h3>Is this Strong Password Generator safe?</h3>
+  <p>Yes. This tool generates passwords in your browser and does not store your personal data on any server.</p>
+
+  <h3>Can I generate passwords with name and DOB?</h3>
+  <p>Yes. You can enter your name and DOB/year to create customized password patterns.</p>
+
+  <h3>How many passwords can I generate?</h3>
+  <p>You can generate up to 1000 passwords at once.</p>
+
+  <h3>Can I use these passwords for Instagram, Gmail and Facebook?</h3>
+  <p>Yes. These passwords can be used for Instagram, Gmail, Facebook, gaming accounts, and any website that supports strong passwords.</p>
+
+  <h3>Does this tool work offline?</h3>
+  <p>Yes. After loading once, it can work offline in most browsers because it runs fully in your device.</p>
+</div>
+
 </div>
 
 <script>
@@ -177,4 +255,4 @@ function moreApps(){window.open("https://nitinmusic.vercel.app/","_blank");}
 </script>
 
 </body>
-  </html>
+     </html>
